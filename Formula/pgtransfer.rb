@@ -7,25 +7,25 @@ class Pgtransfer < Formula
   # The `Update formula` workflow only needs to rewrite the sha256 values.
   on_macos do
     on_arm do
-      url "https://github.com/andymarthin/pgtransfer/releases/download/v1.1.0/pgtransfer-v1.1.0-darwin-arm64.tar.gz"
-      sha256 "adb5cbe25a7d2df9acb56146992b31cf7c033627c48a4a9d22bf1ae3136c3812"
+      url "https://github.com/andymarthin/pgtransfer/releases/download/v1.2.0/pgtransfer-v1.2.0-darwin-arm64.tar.gz"
+      sha256 "700fac182fa17ba8e6d38f84ae6f62ac9e2698dc849b9d2e983342e933a3602b"
     end
 
     on_intel do
-      url "https://github.com/andymarthin/pgtransfer/releases/download/v1.1.0/pgtransfer-v1.1.0-darwin-amd64.tar.gz"
-      sha256 "5d2accc5b302c960f45ad986a9ae8d34516e61b1f79f7a7075d4cb64f548683f"
+      url "https://github.com/andymarthin/pgtransfer/releases/download/v1.2.0/pgtransfer-v1.2.0-darwin-amd64.tar.gz"
+      sha256 "bf3d16b36e574957de84a78b4575cdbbe93cfffef6addfff09f8621c1494e304"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/andymarthin/pgtransfer/releases/download/v1.1.0/pgtransfer-v1.1.0-linux-arm64.tar.gz"
-      sha256 "134e10799f04b50ea0515d04bf26cdfd5450ff49f20c53d1461983a5ca59749b"
+      url "https://github.com/andymarthin/pgtransfer/releases/download/v1.2.0/pgtransfer-v1.2.0-linux-arm64.tar.gz"
+      sha256 "f6d4a93a7e4a35c48050412f2b4a600cc7d5b57fa660bebc5c43c73bebc4a634"
     end
 
     on_intel do
-      url "https://github.com/andymarthin/pgtransfer/releases/download/v1.1.0/pgtransfer-v1.1.0-linux-amd64.tar.gz"
-      sha256 "f614e08eee649e67f5034da3dfaadf200040b1b1fef2f734bd3c133cbc3d028a"
+      url "https://github.com/andymarthin/pgtransfer/releases/download/v1.2.0/pgtransfer-v1.2.0-linux-amd64.tar.gz"
+      sha256 "6f5b004f51effe6f7984a316ee12ffa33477ea248657159e56bb081ec770758c"
     end
   end
 
